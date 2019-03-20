@@ -120,7 +120,7 @@ let g:airline#themes#gotham256#palette.visual_modified =
 
 let s:IA1 = s:Array('blue', 'base2')
 let s:IA2 = s:Array('blue', 'base1')
-let s:IA3 = s:Array('blue', 'base0')
+let s:IA3 = s:Array('blue', 'base1')
 
 let g:airline#themes#gotham256#palette.inactive =
       \ airline#themes#generate_color_map(s:IA1, s:IA2, s:IA3)
