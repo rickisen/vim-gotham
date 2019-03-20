@@ -7,7 +7,7 @@
 "
 " URL: https://github.com/whatyouhide/vim-gotham
 " Aurhor: Andrea Leopardi <an.leopardi@gmail.com>
-" Version: ϡ
+" Version: 1.0.0
 " License: MIT
 
 
@@ -129,7 +129,7 @@ call s:Col('ColorColumn', '', s:linenr_background)
 call s:Col('Visual', '', 'base3')
 
 " Easy-to-guess code elements.
-call s:Col('Comment', 'blue')
+call s:Col('Comment', 'base4')
 call s:Col('String', 'green')
 call s:Col('Number', 'orange')
 call s:Col('Statement', 'base5')
