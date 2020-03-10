@@ -72,7 +72,8 @@ let s:colors.base0 = { 'gui': '#0c1014', 'cterm': 0 }
 let s:colors.base1 = { 'gui': '#11151c', 'cterm': 8 }
 let s:colors.base2 = { 'gui': '#091f2e', 'cterm': 10 }
 let s:colors.base3 = { 'gui': '#0a3749', 'cterm': 12 }
-let s:colors.base4 = { 'gui': '#1e6479', 'cterm': 11 }
+" let s:colors.base4 = { 'gui': '#1e6479', 'cterm': 11 }
+let s:colors.base4 = { 'gui': '#637f88', 'cterm': 11 }
 let s:colors.base5 = { 'gui': '#599cab', 'cterm': 14 }
 let s:colors.base6 = { 'gui': '#99d1ce', 'cterm': 7 }
 let s:colors.base7 = { 'gui': '#d3ebe9', 'cterm': 15 }
@@ -166,7 +167,7 @@ call s:Col('VertSplit', 'blue', s:linenr_background)
 call s:Col('StatusLineNC', 'blue', 'base2')
 
 " Matching parenthesis.
-call s:Col('MatchParen', 'base6', 'orange')
+call s:Col('MatchParen', 'base6', 'base2')
 
 " Special keys, e.g. some of the chars in 'listchars'. See ':h listchars'.
 call s:Col('SpecialKey', 'base3')
@@ -205,7 +206,7 @@ call s:Col('TabLine', 'base6', 'base2')     " the non-selected tabs
 call s:Col('TabLineFill', 'base0', 'base0') " the rest of the tab line
 
 " Spelling.
-call s:Col('SpellBad', 'base7', 'red')
+call s:Col('SpellBad', 'red', 'base3')
 call s:Col('SpellCap', 'base7', 'blue')
 call s:Col('SpellLocal', 'yellow')
 call s:Col('SpellRare', 'base7', 'violet')
@@ -235,7 +236,7 @@ call s:Col('htmlArg', 'blue')
 call s:Col('htmlItalic', 'magenta')
 call s:Col('htmlBold', 'cyan', '')
 
-" Python                                                                                                                   
+" Python
 call s:Col('pythonStatement', 'blue')
 
 

@@ -8,7 +8,8 @@ let s:c.base0 = { 'gui': '#0c1014', 'cterm': 0 }
 let s:c.base1 = { 'gui': '#11151c', 'cterm': 8 }
 let s:c.base2 = { 'gui': '#091f2e', 'cterm': 10 }
 let s:c.base3 = { 'gui': '#0a3749', 'cterm': 12 }
-let s:c.base4 = { 'gui': '#1e6479', 'cterm': 11 }
+" let s:c.base4 = { 'gui': '#1e6479', 'cterm': 11 }
+let s:c.base4 = { 'gui': '#637f88', 'cterm': 11 }
 let s:c.base5 = { 'gui': '#599cab', 'cterm': 14 }
 let s:c.base6 = { 'gui': '#99d1ce', 'cterm': 7 }
 let s:c.base7 = { 'gui': '#d3ebe9', 'cterm': 15 }
@@ -118,9 +119,9 @@ let g:airline#themes#gotham#palette.visual_modified =
 
 " Inactive mode (when the focus is not on the window) =========================
 
-let s:IA1 = s:Array('blue', 'base2')
-let s:IA2 = s:Array('blue', 'base1')
-let s:IA3 = s:Array('blue', 'base1')
+let s:IA1 = s:Array('blue', 'base1')
+let s:IA2 = s:Array('blue', 'base2')
+let s:IA3 = s:Array('base0', 'base2')
 
 let g:airline#themes#gotham#palette.inactive =
       \ airline#themes#generate_color_map(s:IA1, s:IA2, s:IA3)

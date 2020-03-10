@@ -72,8 +72,8 @@ let s:colors.base0 = { 'gui': '#0c1014', 'cterm': 232 }
 let s:colors.base1 = { 'gui': '#11151c', 'cterm': 233 }
 let s:colors.base2 = { 'gui': '#091f2e', 'cterm': 17  }
 let s:colors.base3 = { 'gui': '#0a3749', 'cterm': 18  }
-let s:colors.base4 = { 'gui': '#1e6479', 'cterm': 31  }
-let s:colors.base5 = { 'gui': '#599cab', 'cterm': 81  }
+" let s:colors.base4 = { 'gui': '#1e6479', 'cterm': 11 }
+let s:colors.base4 = { 'gui': '#637f88', 'cterm': 11 }
 let s:colors.base6 = { 'gui': '#99d1ce', 'cterm': 122 }
 let s:colors.base7 = { 'gui': '#d3ebe9', 'cterm': 194 }
 
@@ -166,7 +166,7 @@ call s:Col('VertSplit', 'base2', s:linenr_background)
 call s:Col('StatusLineNC', 'blue', 'base2')
 
 " Matching parenthesis.
-call s:Col('MatchParen', 'base6', 'orange')
+call s:Col('MatchParen', 'base6', 'base2')
 
 " Special keys, e.g. some of the chars in 'listchars'. See ':h listchars'.
 call s:Col('SpecialKey', 'base3')
